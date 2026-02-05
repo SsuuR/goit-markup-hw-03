@@ -200,21 +200,32 @@ img {
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  width: 100%;
+  min-height: 312px;
 }
 
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
 }
-
+.footer-container {
+  padding: 100px 1020px 100px 156px;
+  max-width: 1440px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
 .footer .footer-studio {
   color: #f4f4fd;
+}
+.footer .logo-web {
+  display: inline-block;
+  margin-bottom: 17.5px;
+
 }
 
 /* VISUALLY HIDDEN */
 .visually-hidden {
-  position: absolute;
+  position:absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -223,4 +234,12 @@ img {
   white-space: nowrap;
   clip-path: inset(100%);
   border: 0;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
